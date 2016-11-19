@@ -16,9 +16,4 @@ class MainMenuCell: UITableViewCell {
         super.awakeFromNib()
 
     }
-    
-    func updateUI(openers: Openers) {
-        catLabel.text = openers.categoryMain
-        }
-    
 }

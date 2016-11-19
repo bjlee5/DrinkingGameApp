@@ -13,20 +13,8 @@ class NewMenuVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var sectionLabel: UILabel!
     
-    private var _opener: Openers!
-    
-    var opener: Openers {
-        get {
-            return _opener
-        } set {
-            _opener = newValue
-        }
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-    sectionLabel.text = opener.categoryMain
         
     tableView.delegate = self
     tableView.dataSource = self

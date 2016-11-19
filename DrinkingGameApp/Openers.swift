@@ -8,24 +8,5 @@
 
 import Foundation
 
-class Openers {
-    
-    private var _categoryMain: String!
-    private var _subCategory: [String]!
-    
-    var categoryMain: String {
-        return _categoryMain
-    }
-    
-    var subCategory: [String] {
-        return _subCategory
-    }
-    
-    init(categoryMain: String, subCategory: [String]) {
-        
-        _categoryMain = categoryMain
-        _subCategory = subCategory
-    }
-    
-}
+
 
