@@ -7,21 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BFA0A55FAFEF1E31B33ACD4E /* Pods_DrinkingGameApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E610A03E3FF1E4C3707F50 /* Pods_DrinkingGameApp.framework */; };
+		D0152EC61DDD36A1007BDB6D /* Openers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0152EC51DDD36A1007BDB6D /* Openers.swift */; };
+		D0152EC81DDD5681007BDB6D /* MainMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0152EC71DDD5681007BDB6D /* MainMenuCell.swift */; };
+		D0152ECA1DDE7380007BDB6D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0152EC91DDE7380007BDB6D /* GoogleService-Info.plist */; };
+		D0152ECC1DDE74AB007BDB6D /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = D0152ECB1DDE74AB007BDB6D /* Podfile */; };
+		D0152ECE1DDEA370007BDB6D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0152ECD1DDEA370007BDB6D /* Constants.swift */; };
+		D03461F01DDBE88F0034CC4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D03461EF1DDBE88F0034CC4D /* Main.storyboard */; };
 		D0446F141DDA95CD004F0CAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0446F131DDA95CD004F0CAE /* AppDelegate.swift */; };
-		D0446F161DDA95CD004F0CAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0446F151DDA95CD004F0CAE /* ViewController.swift */; };
-		D0446F191DDA95CD004F0CAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0446F171DDA95CD004F0CAE /* Main.storyboard */; };
+		D0446F161DDA95CD004F0CAE /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0446F151DDA95CD004F0CAE /* SignInVC.swift */; };
 		D0446F1B1DDA95CD004F0CAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0446F1A1DDA95CD004F0CAE /* Assets.xcassets */; };
 		D0446F1E1DDA95CD004F0CAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0446F1C1DDA95CD004F0CAE /* LaunchScreen.storyboard */; };
+		D0446F2A1DDAAB9F004F0CAE /* MainMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0446F291DDAAB9F004F0CAE /* MainMenuVC.swift */; };
+		D0446F2C1DDAABCB004F0CAE /* NewMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0446F2B1DDAABCB004F0CAE /* NewMenuVC.swift */; };
+		D0446F2E1DDAACC6004F0CAE /* PresidentialDebateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0446F2D1DDAACC6004F0CAE /* PresidentialDebateVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2CF3266D4A606CBD0C37134E /* Pods-DrinkingGameApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrinkingGameApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-DrinkingGameApp/Pods-DrinkingGameApp.release.xcconfig"; sourceTree = "<group>"; };
+		7F93D5959DDA0F2699423B7C /* Pods-DrinkingGameApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrinkingGameApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DrinkingGameApp/Pods-DrinkingGameApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A1E610A03E3FF1E4C3707F50 /* Pods_DrinkingGameApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DrinkingGameApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0152EC51DDD36A1007BDB6D /* Openers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Openers.swift; sourceTree = "<group>"; };
+		D0152EC71DDD5681007BDB6D /* MainMenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuCell.swift; sourceTree = "<group>"; };
+		D0152EC91DDE7380007BDB6D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D0152ECB1DDE74AB007BDB6D /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		D0152ECD1DDEA370007BDB6D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D03461EF1DDBE88F0034CC4D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		D0446F101DDA95CD004F0CAE /* DrinkingGameApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrinkingGameApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0446F131DDA95CD004F0CAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D0446F151DDA95CD004F0CAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D0446F181DDA95CD004F0CAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0446F151DDA95CD004F0CAE /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		D0446F1A1DDA95CD004F0CAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0446F1D1DDA95CD004F0CAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0446F1F1DDA95CD004F0CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0446F291DDAAB9F004F0CAE /* MainMenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuVC.swift; sourceTree = "<group>"; };
+		D0446F2B1DDAABCB004F0CAE /* NewMenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewMenuVC.swift; sourceTree = "<group>"; };
+		D0446F2D1DDAACC6004F0CAE /* PresidentialDebateVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresidentialDebateVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFA0A55FAFEF1E31B33ACD4E /* Pods_DrinkingGameApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		791B05FEBF1868F11101BA5C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F93D5959DDA0F2699423B7C /* Pods-DrinkingGameApp.debug.xcconfig */,
+				2CF3266D4A606CBD0C37134E /* Pods-DrinkingGameApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D0446F071DDA95CD004F0CAE = {
 			isa = PBXGroup;
 			children = (
 				D0446F121DDA95CD004F0CAE /* DrinkingGameApp */,
 				D0446F111DDA95CD004F0CAE /* Products */,
+				791B05FEBF1868F11101BA5C /* Pods */,
+				D61B300F45C9DB1155363BF5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +86,62 @@
 		D0446F121DDA95CD004F0CAE /* DrinkingGameApp */ = {
 			isa = PBXGroup;
 			children = (
+				D0446F281DDAAA81004F0CAE /* Controller */,
+				D0446F271DDAAA6C004F0CAE /* Model */,
+				D0446F251DDAAA53004F0CAE /* View */,
+				D0446F261DDAAA59004F0CAE /* Utilities */,
 				D0446F131DDA95CD004F0CAE /* AppDelegate.swift */,
-				D0446F151DDA95CD004F0CAE /* ViewController.swift */,
-				D0446F171DDA95CD004F0CAE /* Main.storyboard */,
+				D03461EF1DDBE88F0034CC4D /* Main.storyboard */,
 				D0446F1A1DDA95CD004F0CAE /* Assets.xcassets */,
 				D0446F1C1DDA95CD004F0CAE /* LaunchScreen.storyboard */,
 				D0446F1F1DDA95CD004F0CAE /* Info.plist */,
+				D0152EC91DDE7380007BDB6D /* GoogleService-Info.plist */,
+				D0152ECB1DDE74AB007BDB6D /* Podfile */,
 			);
 			path = DrinkingGameApp;
+			sourceTree = "<group>";
+		};
+		D0446F251DDAAA53004F0CAE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D0152EC71DDD5681007BDB6D /* MainMenuCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D0446F261DDAAA59004F0CAE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D0152ECD1DDEA370007BDB6D /* Constants.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		D0446F271DDAAA6C004F0CAE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D0152EC51DDD36A1007BDB6D /* Openers.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D0446F281DDAAA81004F0CAE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D0446F151DDA95CD004F0CAE /* SignInVC.swift */,
+				D0446F291DDAAB9F004F0CAE /* MainMenuVC.swift */,
+				D0446F2B1DDAABCB004F0CAE /* NewMenuVC.swift */,
+				D0446F2D1DDAACC6004F0CAE /* PresidentialDebateVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		D61B300F45C9DB1155363BF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1E610A03E3FF1E4C3707F50 /* Pods_DrinkingGameApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +151,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0446F221DDA95CD004F0CAE /* Build configuration list for PBXNativeTarget "DrinkingGameApp" */;
 			buildPhases = (
+				9A98DDDCADBF2EEF97D6D0B7 /* [CP] Check Pods Manifest.lock */,
 				D0446F0C1DDA95CD004F0CAE /* Sources */,
 				D0446F0D1DDA95CD004F0CAE /* Frameworks */,
 				D0446F0E1DDA95CD004F0CAE /* Resources */,
+				D20AE9B4520491ABC201CA7C /* [CP] Embed Pods Frameworks */,
+				704767F77F294290F4120341 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,35 +206,83 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0152ECC1DDE74AB007BDB6D /* Podfile in Resources */,
 				D0446F1E1DDA95CD004F0CAE /* LaunchScreen.storyboard in Resources */,
 				D0446F1B1DDA95CD004F0CAE /* Assets.xcassets in Resources */,
-				D0446F191DDA95CD004F0CAE /* Main.storyboard in Resources */,
+				D03461F01DDBE88F0034CC4D /* Main.storyboard in Resources */,
+				D0152ECA1DDE7380007BDB6D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		704767F77F294290F4120341 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DrinkingGameApp/Pods-DrinkingGameApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A98DDDCADBF2EEF97D6D0B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D20AE9B4520491ABC201CA7C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DrinkingGameApp/Pods-DrinkingGameApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D0446F0C1DDA95CD004F0CAE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0446F161DDA95CD004F0CAE /* ViewController.swift in Sources */,
+				D0152EC61DDD36A1007BDB6D /* Openers.swift in Sources */,
+				D0152EC81DDD5681007BDB6D /* MainMenuCell.swift in Sources */,
+				D0446F161DDA95CD004F0CAE /* SignInVC.swift in Sources */,
 				D0446F141DDA95CD004F0CAE /* AppDelegate.swift in Sources */,
+				D0446F2C1DDAABCB004F0CAE /* NewMenuVC.swift in Sources */,
+				D0446F2E1DDAACC6004F0CAE /* PresidentialDebateVC.swift in Sources */,
+				D0446F2A1DDAAB9F004F0CAE /* MainMenuVC.swift in Sources */,
+				D0152ECE1DDEA370007BDB6D /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D0446F171DDA95CD004F0CAE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D0446F181DDA95CD004F0CAE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D0446F1C1DDA95CD004F0CAE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -258,6 +389,7 @@
 		};
 		D0446F231DDA95CD004F0CAE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F93D5959DDA0F2699423B7C /* Pods-DrinkingGameApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DrinkingGameApp/Info.plist;
@@ -270,6 +402,7 @@
 		};
 		D0446F241DDA95CD004F0CAE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CF3266D4A606CBD0C37134E /* Pods-DrinkingGameApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DrinkingGameApp/Info.plist;
@@ -299,6 +432,7 @@
 				D0446F241DDA95CD004F0CAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
